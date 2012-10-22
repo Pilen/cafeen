@@ -1,0 +1,12 @@
+
+Livestreaming i Emacs, direkte fra Cafeen?!
+
+installer ved at lægge cafeen.el et sted i Emacs load-path, f.eks. i ~/.emacs.d/
+indsæt så følgende i din konfigurations fil (typisk ~/.emacs):
+(require 'cafeen)
+
+For at starte streamingen kald
+M-x cafeen
+
+Hvis cafeen skal åbnes sammen med Emacs indsæt da følgende i din konfiguration:
+(cafeen)
